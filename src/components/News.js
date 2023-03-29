@@ -24,7 +24,8 @@ export class News extends Component {
       page: 1
     }
   }
-  async updateNews(){
+  async updateNews() {
+    console.log("check it!")
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=fba20a51403b4a2180293e1dbfb2c6b0&page=1&pageSize=${this.props.pageSize}`
     this.setState({ loading: true })
     let data = await fetch(url)
@@ -39,14 +40,14 @@ export class News extends Component {
     this.updateNews()
   }
   handleNextClick = async () => {
-    this.setState({page:this.state.page + 1})
-   this.updateNews()
-    
+    this.setState({ page: this.state.page + 1 })
+    this.updateNews()
+
     this.updateNews();
   }
   handlePrevClick = async () => {
-   this.setState({page:this.state.page - 1})
-   this.updateNews()
+    this.setState({ page: this.state.page - 1 })
+    this.updateNews()
   }
   render() {
     return (
