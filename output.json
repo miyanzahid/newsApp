@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Timed Teaser: How did Macron annoy TV viewers?",
+    "description": "Test your knowledge of the news these last few days - 10 questions, 10 seconds each. Go!",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-65087434",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6488/production/_129163752_macindexj.jpg",
+    "publishedAt": "2023-03-28T06:52:20.0699457Z",
+    "content": "Test your news knowledge against the clock. Can you outscore your friends? \r\nIf you cannot see the quiz, follow this link.\r\nWant more of the same? Try last week's teaser, or take Friday's quiz of the… [+104 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Nashville school shooting: Victims include 'saint' and adored little sister",
+    "description": "A school head described as a saint and a custodian who loved his job were among the fatalities.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-65095355",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4C28/production/_129169491_koonce1.jpg",
+    "publishedAt": "2023-03-28T06:52:18.8027348Z",
+    "content": "Media caption, Watch: Dramatic scenes from school shooting in Tennessee\r\nA school head described as a saint, a custodian who \"absolutely loved his job\", and a substitute teacher were among the victim… [+2697 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Afghanistan: Girls' education activist arrested by Taliban",
+    "description": "Matiullah Wesa has long travelled to remote parts trying to improve access to education for all children.",
+    "url": "http://www.bbc.co.uk/news/world-asia-65095663",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6078/production/_129169642_09ce07a9d3b8134ad34ce421903ec91749272b8f0_251_3500_19691000x563.jpg",
+    "publishedAt": "2023-03-28T06:22:16.0373352Z",
+    "content": "A prominent Afghan campaigner for female education has been arrested by the Taliban, even as teenage girls and women remain barred from classrooms.\r\nMatiullah Wesa, 30, who has travelled to remote pa… [+3032 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Ukraine war: Germany sends much-awaited Leopard tanks",
+    "description": "The first 18 of the cutting-edge tanks are sent, amid reports UK Challenger 2s have also arrived.",
+    "url": "http://www.bbc.co.uk/news/world-europe-65095126",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5074/production/_129169502_gettyimages-1246714574.jpg",
+    "publishedAt": "2023-03-28T05:22:25.241438Z",
+    "content": "The first shipment of Leopard 2 tanks from Germany has been sent to Ukraine, the German defence ministry says.\r\nEighteen cutting-edge main battle tanks were delivered after Ukrainian crews were train… [+1987 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Amateur Australian gold digger finds massive nugget",
+    "description": "The specimen was found with a budget metal detector and weighed in at 4.6kg.",
+    "url": "http://www.bbc.co.uk/news/world-australia-65095925",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AB78/production/_129169834_whatsappimage2023-03-28at2.46.47pm.jpg",
+    "publishedAt": "2023-03-28T05:22:23.8824023Z",
+    "content": "An Australian man armed with a budget metal detector has hit the jackpot, finding a 4.6kg rock containing gold worth A$240,000 (£130,000; $160,000).\r\nThe man, who doesn't want to be named, made the d… [+1200 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Elon Musk: Twitter boss announces blue tick shake-up",
+    "description": "Only paying users will have their content recommended and be allowed to vote in polls from 15 April.",
+    "url": "http://www.bbc.co.uk/news/business-65095684",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D544/production/_129169545_gettyimages-1459166551.jpg",
+    "publishedAt": "2023-03-28T05:07:15.9748151Z",
+    "content": "Twitter boss Elon Musk has announced a shake-up of the social media platform's paid verification feature Twitter Blue.\r\nFrom 15 April only paying subscribers will have posts recommended to other user… [+4622 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Man uses bare hands to rescue trapped DRC miners",
+    "description": "Authorities say nine men survived a collapsed gold mine in South Kivu.",
+    "url": "http://www.bbc.co.uk/news/world-africa-65095295",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F916/production/_129166736_p0fcbjy5.jpg",
+    "publishedAt": "2023-03-28T03:37:19.8661706Z",
+    "content": "Following heavy rain, a tragedy was narrowly averted at a collapsed gold mine in the Democratic Republic of Congo after nine miners emerged from the rubble. \r\nFootage shows the men crawling out of th… [+307 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Who is Humza Yousaf, the new SNP leader?",
+    "description": "He was widely seen as the preferred candidate of the SNP establishment - including Nicola Sturgeon.",
+    "url": "http://www.bbc.co.uk/news/uk-scotland-scotland-politics-64874821",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/B37A/production/_129164954_5edd5a055f1788e4f66a07de703c53fdd945cb82.jpg",
+    "publishedAt": "2023-03-28T03:37:17.741951Z",
+    "content": "Humza Yousaf has been elected to succeed Nicola Sturgeon as SNP leader and Scotland's next first minister. He was widely seen as being the preferred candidate of the SNP establishment - including Ms … [+9459 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Gwyneth Paltrow ski crash trial: Accuser heard 'blood-curdling scream'",
+    "description": "A man suing Gwyneth Paltrow over a ski crash says it sounded \"like someone was out of control\".",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-65095127",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13DF4/production/_129169318_0c3de685a963bf30d78242d5f720afc8ea134683.jpg",
+    "publishedAt": "2023-03-27T22:52:20.1090103Z",
+    "content": "A man suing Gwyneth Paltrow over a ski accident heard a \"blood-curdling scream\" shortly before the collision, a court in Utah has heard. \r\nTerry Sanderson, 76, said it sounded \"like someone was out o… [+1659 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Three children killed in Tennessee school shooting",
+    "description": "The gunman at a private Christian school in Nashville is now dead, say police.",
+    "url": "http://www.bbc.co.uk/news/live/world-us-canada-65087221",
+    "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
+    "publishedAt": "2023-03-27T17:22:22.4079878Z",
+    "content": "We're bringing you live reporting of a fatal school shooting reported in Nashville, Tennessee.\r\nThree children have been reported dead with several others injured. A press conference with local polic… [+53 chars]"
+    }
+    ]
+    }
