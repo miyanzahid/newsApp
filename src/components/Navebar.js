@@ -14,8 +14,8 @@ export default class Navebar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/">Home</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/businesse">Business</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/entertainment">Etertainment</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/Business">Business</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
