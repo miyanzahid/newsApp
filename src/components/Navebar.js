@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default class Navebar extends Component {
   render() {
-
+console.log();
     return (
       <div><nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
