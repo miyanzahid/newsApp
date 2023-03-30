@@ -5,6 +5,10 @@ import PropTypes from 'prop-types'
 
 export class News extends Component {
 
+   capitalizeFirstLetter=(string)=> {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
   static defaultProps = {
     country: 'in',
     pageSize: 6,
@@ -16,13 +20,15 @@ export class News extends Component {
     pageSize: PropTypes.number,
     category: PropTypes.string
   }
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
-      page: 1
+      page: 1,
+      totalResults :0
     }
+    document.title = `${this.capitalizeFirstLetter(this.props.category)} - NewsMonkey`;
   }
   async updateNews() {
     console.log("check it!")
@@ -52,15 +58,22 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h1 className="text-center" style={{ margin: '35px 0px' }}>NewsMonkey - Top Headlines</h1>
-        {this.state.loading && <Spinner />}
+        <h1 className="text-center" style={{ margin: '35px 0px' }}>NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
+        {/* {this.state.loading && <Spinner />} */}
+        <InfiniteScroll
+          dataLength={this.state.articles.length}
+          next={this.fetchMoreData}
+          hasMore={this.articles.length !== this.state.totalResults}
+          loader={<h4>Loading...</h4>}
+        >
         <div className="row">
-          {!this.state.loading && this.state.articles.map((element) => {
+          {this.state.articles.map((element) => {
             return <div className="col-md-4" key={element.url}>
               <NewsItems title={element.title} discription={element.discription} imgUrl={element.urlToImage} url={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
             </div>
           })}
         </div>
+        </InfiniteScroll>
         <div className="container d-flex justify-content-between">
           <button disabled={this.state.page <= 1} className="btn btn-dark" onClick={this.handlePrevClick}> &larr; Preview</button>
           <button disabled={this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSizes)} className="btn btn-dark" onClick={this.handleNextClick}>Next &rarr; </button>
