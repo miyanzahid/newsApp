@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import Navebar from './components/Navebar';
 import News from './components/News';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
   setpage = 6;
